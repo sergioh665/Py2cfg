@@ -5,7 +5,7 @@
 
 # Instalando WSL
 ```bash
-wsl --install
+wsl --install SE DER ERRO, TENTE => wsl --install -d Ubuntu
 ```
 
 # Atualizar listas de pacotes

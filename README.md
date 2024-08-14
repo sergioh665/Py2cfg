@@ -1,42 +1,41 @@
 
-# Preparação do ambiente...  
+# Preparação do ambiente na sua máquina...  
 
-## Na sua máquina: 
 
-# Instalando WSL
+## Instalando WSL
 ```bash
-wsl --install         SE DER ERRO, TENTE => wsl --install -d Ubuntu
+wsl --install -d Ubuntu
 ```
 
-# Atualizar listas de pacotes
+## Atualizar listas de pacotes
 
 ```bash
 sudo apt update
 ```
-# Instalar pacotes e ferramentas
+## Instalar pacotes e ferramentas
 
 ```bash
 sudo apt install python3 python3-pip python3-venv graphviz
 ```
-# Mudar para diretório de destino
+## Mudar para diretório de destino
 
 ```bash
 cd /mnt/c/Users/seu_usuario/Desktop/pasta_destino
 ```
 
-# Criar ambiente virtual
+## Criar ambiente virtual
 
 ```bash
 python3 -m venv venv
 ```
 
-# Ativar ambiente virtual
+## Ativar ambiente virtual
 
 ```bash
 source venv/bin/activate
 ```
 
-# Instalar pacotes
+## Instalar pacotes
 
 ```bash
 pip install graphviz py2cfg
